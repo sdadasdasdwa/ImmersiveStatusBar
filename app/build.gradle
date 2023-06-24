@@ -36,9 +36,17 @@ dependencies {
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
+
+    //Palette库是Android提供的一个强大的工具库，用于从图像中提取颜色信息。
+    // 它提供了分析图像并生成颜色调色板的功能，可以用于应用程序中的各种颜色相关需求。
+    implementation 'androidx.palette:palette:1.0.0'
+
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    def kotlin_version = '1.6.21'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
